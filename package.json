@@ -1,0 +1,22 @@
+{
+  "name": "compose_builder_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malykhin/compose_builder_backend.git"
+  },
+  "author": "Denys Malykhin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malykhin/compose_builder_backend/issues"
+  },
+  "homepage": "https://github.com/malykhin/compose_builder_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
