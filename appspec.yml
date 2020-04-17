@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /
+    destination: /home/ubuntu/app
 hooks:
   ApplicationStart:
-    - location: /app_start.sh
+    - location: /home/ubuntu/app/app_start.sh
       timeout: 300
       runas: ubuntu
