@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm run start --prefix /home/ubuntu/app/app_start.sh
+/home/ubuntu/app/node_modules/forever/bin/forever start index.js
