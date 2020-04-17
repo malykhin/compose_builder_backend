@@ -7,4 +7,4 @@ hooks:
   ApplicationStart:
     - location: /app_start.sh
       timeout: 300
-      runas: ec2-user
+      runas: ubuntu
