@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "forever start index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "forever": "^2.0.0"
+    "nodemon": "^2.0.3",
+    "pm2": "^4.2.3"
   }
 }

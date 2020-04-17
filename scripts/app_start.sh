@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo /home/ubuntu/app/node_modules/forever/bin/forever start /home/ubuntu/app/index.js
+sudo /home/ubuntu/app/node_modules/pm2/bin/pm2 start /home/ubuntu/app/ecosystem.config.js
